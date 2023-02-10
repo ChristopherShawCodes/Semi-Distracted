@@ -1,0 +1,117 @@
+body{
+    background-image: url(./Images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hide{
+    display: none;
+}
+
+.hidden{
+    visibility: collapse;
+}
+
+.car{
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    width: 50px;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(./Images/car.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+.enemy{
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    width: 70px;
+    height: 220px;
+    background-color: red;
+    margin: 0 auto;
+    background-image: url(./Images/semi.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.score{
+    color: #262626;
+    font-size: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+    margin-right: 2rem;
+}
+
+.span{
+    color: red;
+    font-size: 2rem;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.span:hover{
+    opacity: 1;
+}
+
+
+
+.startScreen{
+    text-align: center;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+    position: absolute;
+    margin-top: 27%;
+    transform: translateX(65%);
+    font-size: 3rem;
+    background-color: #eee;
+    z-index: 100;
+    border-radius: 10px;
+    border: 3px solid #ffe274;
+    opacity: 0.95;
+    cursor: pointer;
+}
+
+.startScreen:hover{
+    scale: 1.01;
+}
+
+
+.line{
+    position: absolute;
+    margin-left: 200px;
+    border: 3px solid white;
+    height: 60px;
+    margin-top: 4rem;
+}
+
+.line2{
+    position: absolute;
+    margin-left: 400px;
+    border: 3px solid white;
+    height: 60px;
+    margin-top: 4rem;
+}
+
+.line3{
+    position: absolute;
+    margin-left: 600px;
+    border: 3px solid white;
+    height: 60px;
+    margin-top: 4rem;
+}
+
+
+.gameArea{
+    margin: 0 auto;
+    background-color: #262626;
+    transform: translateX(40%);
+    width: 800px;
+    height: 92%;
+    overflow: hidden;
+    position: absolute;
+}
